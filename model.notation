@@ -323,7 +323,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jj9tlEsXEeS5GccLFu7kfQ"/>
       </children>
       <element xmi:type="uml:Class" href="model.uml#_jj6qQEsXEeS5GccLFu7kfQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jj8fcUsXEeS5GccLFu7kfQ" x="398" y="374"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jj8fcUsXEeS5GccLFu7kfQ" x="510" y="440"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_jN6IkEsYEeS5GccLFu7kfQ" type="2008">
       <children xmi:type="notation:DecorationNode" xmi:id="_jN6voEsYEeS5GccLFu7kfQ" type="5029"/>
@@ -432,10 +432,10 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_vzoBAUsaEeS5GccLFu7kfQ" y="20"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_vzooEEsaEeS5GccLFu7kfQ" type="6003">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_vzooEUsaEeS5GccLFu7kfQ" y="-20"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vzooEUsaEeS5GccLFu7kfQ" x="5" y="-60"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_vzpPIEsaEeS5GccLFu7kfQ" type="6005">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_vzpPIUsaEeS5GccLFu7kfQ" y="20"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vzpPIUsaEeS5GccLFu7kfQ" x="-17" y="59"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_vzp2MEsaEeS5GccLFu7kfQ" type="6033">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_vzp2MUsaEeS5GccLFu7kfQ" y="20"/>

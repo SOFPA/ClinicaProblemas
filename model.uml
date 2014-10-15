@@ -21,7 +21,7 @@
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_btcE8EsREeS5GccLFu7kfQ" name="seccMagistral" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_yjqOwEsREeS5GccLFu7kfQ" name="seccComplementaria" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_vzh6YEsaEeS5GccLFu7kfQ" name="estudiante_recurso" type="_jpWWIEsSEeS5GccLFu7kfQ" aggregation="shared" association="_vzjIgEsaEeS5GccLFu7kfQ">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vzh6YEsaEeS5GccLFu7kfQ" name="estudiantes_recientes" type="_jpWWIEsSEeS5GccLFu7kfQ" aggregation="shared" association="_vzjIgEsaEeS5GccLFu7kfQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vzh6YUsaEeS5GccLFu7kfQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vzh6YksaEeS5GccLFu7kfQ" value="*"/>
       </ownedAttribute>
@@ -117,7 +117,7 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_vzjIgEsaEeS5GccLFu7kfQ" name="recursoReciente" memberEnd="_vzjIgUsaEeS5GccLFu7kfQ _vzh6YEsaEeS5GccLFu7kfQ">
-      <ownedEnd xmi:type="uml:Property" xmi:id="_vzjIgUsaEeS5GccLFu7kfQ" name="estudiante_recursos" type="_5w7PEEsDEeS5GccLFu7kfQ" association="_vzjIgEsaEeS5GccLFu7kfQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vzjIgUsaEeS5GccLFu7kfQ" name="recurso_reciente" type="_5w7PEEsDEeS5GccLFu7kfQ" association="_vzjIgEsaEeS5GccLFu7kfQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vzjIgksaEeS5GccLFu7kfQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vzjIg0saEeS5GccLFu7kfQ" value="*"/>
       </ownedEnd>
