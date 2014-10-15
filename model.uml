@@ -7,7 +7,6 @@
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_k3YCwEsCEeS5GccLFu7kfQ" name="Long"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lhPfIEsCEeS5GccLFu7kfQ" name="Boolean"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_5w7PEEsDEeS5GccLFu7kfQ" name="Estudiante">
-      <generalization xmi:type="uml:Generalization" xmi:id="_T5efwEsZEeS5GccLFu7kfQ" general="_ItPqIEsUEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_nUgEIEsQEeS5GccLFu7kfQ" name="cantidadVisitas" type="_kQ0ZEEsCEeS5GccLFu7kfQ">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_xst1IEsQEeS5GccLFu7kfQ"/>
       </ownedAttribute>
@@ -32,6 +31,9 @@
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_gDosAFPLEeS5GccLFu7kfQ" name="id" type="_k3YCwEsCEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_rnfJsFPLEeS5GccLFu7kfQ" name="name" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9bG3EFShEeSUzavwcjIMDg" name="apellidos" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9bWusFShEeSUzavwcjIMDg" name="contrasenia" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9blYMFShEeSUzavwcjIMDg" name="correo" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_jpWWIEsSEeS5GccLFu7kfQ" name="Recurso">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_qrLaIEsSEeS5GccLFu7kfQ" name="nombre" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
@@ -53,17 +55,9 @@
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_cN6XoFPLEeS5GccLFu7kfQ" name="id" type="_k3YCwEsCEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_sFvL8FPLEeS5GccLFu7kfQ" name="name" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ItPqIEsUEeS5GccLFu7kfQ" name="Usuario">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Op2LcEsUEeS5GccLFu7kfQ" name="nombre" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_cyh9YEsUEeS5GccLFu7kfQ" name="apellidos" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_iRqfkEsUEeS5GccLFu7kfQ" name="correo" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_k8ZAcEsUEeS5GccLFu7kfQ" name="contrasenia" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_dC9wUFPLEeS5GccLFu7kfQ" name="id" type="_k3YCwEsCEeS5GccLFu7kfQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_pw3mUFPLEeS5GccLFu7kfQ" name="name" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rh_gcFShEeSUzavwcjIMDg" name="tema" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_4fDu0EsUEeS5GccLFu7kfQ" name="Monitor">
-      <generalization xmi:type="uml:Generalization" xmi:id="_U5-6gEsZEeS5GccLFu7kfQ" general="_ItPqIEsUEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_C8k2kEsVEeS5GccLFu7kfQ" name="codigo" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ExS8gEsVEeS5GccLFu7kfQ" name="codigo" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_OiGIMEsVEeS5GccLFu7kfQ" name="horasRealizadas" type="_kQ0ZEEsCEeS5GccLFu7kfQ"/>
@@ -85,6 +79,9 @@
         <qualifier xmi:type="uml:Property" xmi:id="_mrRuYFPLEeS5GccLFu7kfQ" name="id" type="_k3YCwEsCEeS5GccLFu7kfQ"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_oLsYQFPLEeS5GccLFu7kfQ" name="name" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_77F10FShEeSUzavwcjIMDg" name="correo" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_77VGYFShEeSUzavwcjIMDg" name="apellidos" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_77jv4FShEeSUzavwcjIMDg" name="contrasenia" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_jj6qQEsXEeS5GccLFu7kfQ" name="Comentario">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_n5p7cEsXEeS5GccLFu7kfQ" name="contenido" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
@@ -93,7 +90,6 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_sk3_AFPLEeS5GccLFu7kfQ" name="name" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_jN13IEsYEeS5GccLFu7kfQ" name="Administrador">
-      <generalization xmi:type="uml:Generalization" xmi:id="_Vji04EsZEeS5GccLFu7kfQ" general="_ItPqIEsUEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_aQNYUEsZEeS5GccLFu7kfQ" name="uTI_admin">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQNYUUsZEeS5GccLFu7kfQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQNYUksZEeS5GccLFu7kfQ" value="*"/>
@@ -104,26 +100,29 @@
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_fbjYUFPLEeS5GccLFu7kfQ" name="id" type="_k3YCwEsCEeS5GccLFu7kfQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_o7FN0FPLEeS5GccLFu7kfQ" name="name" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8cWIwFShEeSUzavwcjIMDg" name="contrasenia" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8cfSsFShEeSUzavwcjIMDg" name="correo" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8cnOgFShEeSUzavwcjIMDg" name="apellidos" type="_iKuPQEsCEeS5GccLFu7kfQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_bFuOkEsaEeS5GccLFu7kfQ" name="A_administrador_recurso_1" memberEnd="_bFuOkUsaEeS5GccLFu7kfQ _bFsZYEsaEeS5GccLFu7kfQ">
+    <packagedElement xmi:type="uml:Association" xmi:id="_bFuOkEsaEeS5GccLFu7kfQ" name="recursoSubidoAdmin" memberEnd="_bFuOkUsaEeS5GccLFu7kfQ _bFsZYEsaEeS5GccLFu7kfQ">
       <ownedEnd xmi:type="uml:Property" xmi:id="_bFuOkUsaEeS5GccLFu7kfQ" name="administrador" type="_jN13IEsYEeS5GccLFu7kfQ" association="_bFuOkEsaEeS5GccLFu7kfQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bFuOkksaEeS5GccLFu7kfQ" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bFuOk0saEeS5GccLFu7kfQ" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_us_JEEsaEeS5GccLFu7kfQ" name="A_monitor_recurso_1" memberEnd="_us_JEUsaEeS5GccLFu7kfQ _us9T4EsaEeS5GccLFu7kfQ">
+    <packagedElement xmi:type="uml:Association" xmi:id="_us_JEEsaEeS5GccLFu7kfQ" name="recursoSubidoMonitor" memberEnd="_us_JEUsaEeS5GccLFu7kfQ _us9T4EsaEeS5GccLFu7kfQ">
       <ownedEnd xmi:type="uml:Property" xmi:id="_us_JEUsaEeS5GccLFu7kfQ" name="monitor_recurso" type="_4fDu0EsUEeS5GccLFu7kfQ" association="_us_JEEsaEeS5GccLFu7kfQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_us_JEksaEeS5GccLFu7kfQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_us_JE0saEeS5GccLFu7kfQ" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_vzjIgEsaEeS5GccLFu7kfQ" name="RecursosRecientes" memberEnd="_vzjIgUsaEeS5GccLFu7kfQ _vzh6YEsaEeS5GccLFu7kfQ">
+    <packagedElement xmi:type="uml:Association" xmi:id="_vzjIgEsaEeS5GccLFu7kfQ" name="recursoReciente" memberEnd="_vzjIgUsaEeS5GccLFu7kfQ _vzh6YEsaEeS5GccLFu7kfQ">
       <ownedEnd xmi:type="uml:Property" xmi:id="_vzjIgUsaEeS5GccLFu7kfQ" name="estudiante_recursos" type="_5w7PEEsDEeS5GccLFu7kfQ" association="_vzjIgEsaEeS5GccLFu7kfQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vzjIgksaEeS5GccLFu7kfQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vzjIg0saEeS5GccLFu7kfQ" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_w6EEoEsaEeS5GccLFu7kfQ" name="A_recurso_publicacion_1" memberEnd="_w6EEoUsaEeS5GccLFu7kfQ _w6C2gEsaEeS5GccLFu7kfQ">
+    <packagedElement xmi:type="uml:Association" xmi:id="_w6EEoEsaEeS5GccLFu7kfQ" name="comentarioRecurso" memberEnd="_w6EEoUsaEeS5GccLFu7kfQ _w6C2gEsaEeS5GccLFu7kfQ">
       <ownedEnd xmi:type="uml:Property" xmi:id="_w6EEoUsaEeS5GccLFu7kfQ" name="recurso_publicacion" type="_jpWWIEsSEeS5GccLFu7kfQ" association="_w6EEoEsaEeS5GccLFu7kfQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w6EEoksaEeS5GccLFu7kfQ" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w6EEo0saEeS5GccLFu7kfQ" value="1"/>
